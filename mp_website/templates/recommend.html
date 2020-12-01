@@ -1,0 +1,8 @@
+{%extends "index.html" %}
+    {% block content %}
+    <h1>Here are your recommendations: </h1></b>
+    {% for song in song_list %}
+    <p>{{song[0]}}</p><br>
+    {%endfor%}
+     
+{% endblock %}
